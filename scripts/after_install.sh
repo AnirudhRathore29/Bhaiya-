@@ -5,7 +5,6 @@ cd /home/ubuntu/server
 
 #_Remove_Unused_Code
 rm -rf node_modules
-rm -rf package-lock.json
 rm -rf build
 
 #Install_node_modules_&_Make_React_Build
