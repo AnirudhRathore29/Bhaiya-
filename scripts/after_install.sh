@@ -9,5 +9,5 @@ rm -rf package.json
 rm -rf build
 
 # Install any new dependencies
-npm install
-npm run build
+sudo npm install
+sudo npm run build
