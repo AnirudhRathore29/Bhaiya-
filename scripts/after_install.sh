@@ -3,11 +3,11 @@
 #_Change_Working_Directory
 cd /home/ubuntu/server
 
-#_Remove_Unused_Code
-rm -rf node_modules
-rm -rf package-lock.json
-rm -rf build
+# Install any new dependencies
+npm install
 
-#Install_node_modules_&_Make_React_Build
-npm i --legacy-peer-deps
+# Build your React application
 npm run build
+
+# Restart your server (if necessary)
+systemctl restart your-server.service
