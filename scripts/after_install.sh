@@ -10,6 +10,4 @@ rm -rf build
 
 # Install any new dependencies
 npm install
-
-# Build your React application
 npm run build
