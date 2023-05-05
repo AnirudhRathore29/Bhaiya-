@@ -1,12 +1,13 @@
 #!/bin/bash
 
-#_Change_Working_Directory
-cd /home/ubuntu/server
+#cd /home/ubuntu/server
 
-#_Remove_Unused_Code
-#rm -rf node_modules
-#rm -rf build
+# install dependencies
+npm install
 
-# Install any new dependencies
-npm install 
-npm run build
+# install create-react-app and react-scripts
+# without react-scripts application cannot be started
+npm install --save create-react-app react-scripts
+
+# install pm2 process manager
+npm install pm2 -g
