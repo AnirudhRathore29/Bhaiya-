@@ -8,5 +8,5 @@ cd /home/ubuntu/server
 #rm -rf build
 
 # Install any new dependencies
-#npm install --force
-#npm run build
+npm install 
+npm run build
