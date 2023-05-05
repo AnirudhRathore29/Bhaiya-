@@ -9,5 +9,5 @@ rm -rf package-lock.json
 rm -rf build
 
 # Install any new dependencies
-npm i
+npm install
 npm run build
