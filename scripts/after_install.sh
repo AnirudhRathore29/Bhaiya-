@@ -8,5 +8,5 @@ rm -rf node_modules
 rm -rf build
 
 # Install any new dependencies
-sudo npm install --force
-sudo npm run build
+npm install --force
+npm run build
