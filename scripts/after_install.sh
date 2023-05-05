@@ -10,4 +10,5 @@ rm -rf build
 
 # Install any new dependencies
 npm install --force
+
 npm run build
